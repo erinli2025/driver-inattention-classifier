@@ -1,0 +1,25 @@
+# Driver Inattention Detection – Deep Learning Project
+
+This is a course project for the Deep Learning class at Tilburg University (Spring 2025).  
+The objective was to develop an image classification model using convolutional neural networks (CNN) to detect six types of driver inattention behaviors (e.g., yawning, sleepy driving, drinking, etc.).
+
+## My Contribution
+
+I was responsible for the model optimization phase, including:
+
+- Performing hyperparameter tuning (optimizer, dropout rate, number of neurons, filter size, etc.)
+- Training and evaluating models using the university's GPU4EDU platform
+- Comparing performance across model variations using ROC curve, AUC, and confusion matrix
+- Preparing results for handoff to teammates and integration into the final report
+
+## Tools & Frameworks
+
+- Python  
+- TensorFlow / Keras  
+- Google Colab  
+- GPU4EDU  
+- Matplotlib
+
+## Outcome
+
+The improved model achieved higher classification accuracy and better balance across classes than the baseline, demonstrating the impact of tuning key architectural parameters.
